@@ -10,7 +10,7 @@ const UseMomo = () => {
   //   };
   
   const optimisedFun = useMemo(() => {
-    console.log("Render when minus button also clicked!");
+    console.log("Not render when minus button clicked!");
     return add + 5;
   }, [add]);
 
