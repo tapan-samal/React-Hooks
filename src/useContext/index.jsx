@@ -14,7 +14,7 @@ const UseContext = () => {
     setCount(count + 1);
   };
   const handleDecrement = () => {
-    setCount(count + 1);
+    setCount(count - 1);
   };
   return (
     <Context1.Provider value={candidate}>
