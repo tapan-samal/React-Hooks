@@ -5,6 +5,9 @@ const FocusInput = () => {
 
   const handleFocusInput = () => {
     inputRef.current.focus();
+    inputRef.current.style.color = "blue";
+    inputRef.current.placeholder = "Enter Data";
+    inputRef.current.value = 12345;
   };
 
   return (
