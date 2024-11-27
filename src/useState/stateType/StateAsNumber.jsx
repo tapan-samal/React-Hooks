@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 
 const StateAsNumber = () => {
+  // const array = useState(0);
+  // const counter = array[0];
+  // const setCounter = array[1];
+
   const [number, setNumber] = useState(0);
 
   const handleIncrement = () => {
